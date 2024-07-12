@@ -14,7 +14,46 @@ It is part of the submissions for the workshop paper submissions of the [2024 Mu
 
 ### Dataset
 ---
-The fall detection dataset is derived from the [*Heart Rate and IMU Sensor Data for Fall Detection*](https://github.com/nhoyh/hr_imu_falldetection_dataset) dataset published by Nho, Lim & Kwon ([2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8970371))
+The fall detection dataset is derived from the [*Heart Rate and IMU Sensor Data for Fall Detection*](https://github.com/nhoyh/hr_imu_falldetection_dataset) dataset published by Nho, Lim & Kwon ([2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8970371)). 
+
+The dataset captures 16 unique scenarios (classifiable under `fall` and `non-fall`) and sensor readings, as denoted below:
+
+<ins>Scenarios</ins>
+- `fall` class
+    - `fall1`: Clockwise forward fall
+    - `fall2`: Clocklwise backward fall
+    - `fall3`: Right to left lateral fall
+    - `fall4`: Counterclock-wise forward fall
+    - `fall5`: Counterclock-wise backward fall
+    - `fall6`: Left to right lateral fall
+- `non-fall` class
+    - `bed`: Lying down and up on the bed
+    - `chair`: Sitting down and up
+    - `clap`: Hitting the sensor
+    - `cloth`: Wearing a cloth
+    - `eat`: Eating
+    - `hair`: Brushing the hair
+    - `shoe`: Tying a shoelace
+    - `stair`: Climbing up and down on stairs
+    - `teeth`: Brushing teeth
+    - `walk`: Walking
+    - `wash`: Washing
+    - `write`: Writing
+    - `zip`: Rapidly zipping up and down
+
+<ins>Sensor Readings</ins>
+- `ax`: x axis of accelerometer signal (g)
+- `ay`: y axis of accelerometer signal (g)
+- `az`: z axis of accelerometer signal (g)
+- `w`: quaternion of gyroscope
+- `x`: quaternion of gyroscope
+- `y`: quaternion of gyroscope
+- `z`: quaternion of gyroscope
+- `droll`: angular velocity of gyroscope
+- `dpitch`: angular velocity of gyroscope
+- `dyaw`: angular velocity of gyroscope
+- `heart`: PPG sensor
+- `time`: Real time 
 
 ### Methodology
 ---
