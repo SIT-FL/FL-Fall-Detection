@@ -12,7 +12,7 @@ def load_model(args):
     model_class = importlib.import_module('..models', package=__package__).__dict__[args.model_name]
 
     # get required model arguments
-    required_args = inspect.getargspec(model_class)[0]
+    required_args = inspect.getfullargspec(model_class)[0]
 
     # collect eneterd model arguments
     model_args = {}

@@ -51,6 +51,145 @@ Implementations of various Federated Learning (FL) algorithms in PyTorch, especi
 ## Configurations
 * See `python3 main.py -h`.
 
+```
+usage: main.py [-h] --exp_name EXP_NAME [--seed SEED] [--device DEVICE] [--data_path DATA_PATH] [--log_path LOG_PATH]
+               [--result_path RESULT_PATH] [--use_tb] [--tb_port TB_PORT] [--tb_host TB_HOST] --dataset DATASET
+               [--test_size {Specificed Range: [-1.00, 1.00]}] [--rawsmpl {Specificed Range: [0.00, 1.00]}]
+               [--resize RESIZE] [--crop CROP] [--imnorm] [--randrot RANDROT]
+               [--randhf {Specificed Range: [0.00, 1.00]}] [--randvf {Specificed Range: [0.00, 1.00]}]
+               [--randjit {Specificed Range: [0.00, 1.00]}] --split_type {iid,unbalanced,patho,diri,pre}
+               [--mincls MINCLS] [--cncntrtn CNCNTRTN] --model_name
+               {TwoNN,TwoCNN,SimpleCNN,FEMNISTCNN,Sent140LSTM,LeNet,MobileNet,SqueezeNet,VGG9,VGG9BN,VGG11,VGG11BN,VGG13,VGG13BN,ResNet10,ResNet18,ResNet34,ShuffleNet,MobileNeXt,SqueezeNeXt,MobileViT,StackedLSTM,StackedTransformer,LogReg,M5,DistilBert,SqueezeBert,MobileBert}
+               [--hidden_size HIDDEN_SIZE] [--dropout {Specificed Range: [0.00, 1.00]}] [--use_model_tokenizer]
+               [--use_pt_model] [--seq_len SEQ_LEN] [--num_layers NUM_LAYERS] [--num_embeddings NUM_EMBEDDINGS]
+               [--embedding_size EMBEDDING_SIZE]
+               [--init_type {normal,xavier,xavier_uniform,kaiming,orthogonal,truncnorm,none}] [--init_gain INIT_GAIN]
+               --algorithm {fedavg,fedsgd,fedprox,fedavgm} --eval_type {local,global,both}
+               [--eval_fraction {Specificed Range: [0.00, 1.00]}] [--eval_every EVAL_EVERY] --eval_metrics
+               {acc1,acc5,auroc,auprc,youdenj,f1,precision,recall,seqacc,mse,mae,mape,rmse,r2,d2}
+               [{acc1,acc5,auroc,auprc,youdenj,f1,precision,recall,seqacc,mse,mae,mape,rmse,r2,d2} ...] [--K K]
+               [--R R] [--C {Specificed Range: [0.00, 1.00]}] [--E E] [--B B]
+               [--beta1 {Specificed Range: [0.00, 1.00]}] [--no_shuffle] --optimizer OPTIMIZER
+               [--max_grad_norm {Specificed Range: [0.00, inf]}] [--weight_decay {Specificed Range: [0.00, 1.00]}]
+               [--momentum {Specificed Range: [0.00, 1.00]}] --lr {Specificed Range:
+               [0.00, 100.00]} [--lr_decay {Specificed Range: [0.00, 1.00]}] [--lr_decay_step LR_DECAY_STEP]
+               --criterion CRITERION [--mu {Specificed Range: [0.00, 1000000.00]}]
+
+options:
+  -h, --help            show this help message and exit
+  --exp_name EXP_NAME   name of the experiment
+  --seed SEED           global random seed
+  --device DEVICE       device to use; `cpu`, `cuda`, `cuda:GPU_NUMBER`
+  --data_path DATA_PATH
+                        path to save & read raw data
+  --log_path LOG_PATH   path to save logs
+  --result_path RESULT_PATH
+                        path to save results
+
+    TensorBoard
+  --use_tb              use TensorBoard for log tracking (if passed)
+  --tb_port TB_PORT     TensorBoard port number (valid only if `use_tb`)
+  --tb_host TB_HOST     TensorBoard host address (valid only if `use_tb`)
+
+  --dataset DATASET     name of dataset to use for an experiment (NOTE: case sensitive)
+                            - image classification datasets in `torchvision.datasets`,
+                            - text classification datasets in `torchtext.datasets`,
+                            - LEAF benchmarks [ FEMNIST | Sent140 | Shakespeare | CelebA | Reddit ],
+                            - among [ TinyImageNet | CINIC10 | SpeechCommands | BeerReviewsA | BeerReviewsL | Heart | Adult | Cover | GLEAM ]
+                            
+  --test_size {Specificed Range: [-1.00, 1.00]}
+                        a fraction of local hold-out dataset for evaluation (-1 for assigning pre-defined test split as local holdout set)
+  --rawsmpl {Specificed Range: [0.00, 1.00]}
+                        a fraction of raw data to be used (valid only if one of `LEAF` datasets is used)
+
+    Image
+  --resize RESIZE       resize input images (using `torchvision.transforms.Resize`)
+  --crop CROP           crop input images (using `torchvision.transforms.CenterCrop` (for evaluation) and `torchvision.transforms.RandomCrop` (for training))
+  --imnorm              normalize channels with mean 0.5 and standard deviation 0.5 (using `torchvision.transforms.Normalize`, if passed)
+  --randrot RANDROT     randomly rotate input (using `torchvision.transforms.RandomRotation`)
+  --randhf {Specificed Range: [0.00, 1.00]}
+                        randomly flip input horizontaly (using `torchvision.transforms.RandomHorizontalFlip`)
+  --randvf {Specificed Range: [0.00, 1.00]}
+                        randomly flip input vertically (using `torchvision.transforms.RandomVerticalFlip`)
+  --randjit {Specificed Range: [0.00, 1.00]}
+                        randomly change the brightness and contrast (using `torchvision.transforms.ColorJitter`)
+
+  --split_type {iid,unbalanced,patho,diri,pre}
+                        type of data split scenario
+                            - `iid`: statistically homogeneous setting,
+                            - `unbalanced`: unbalanced in sample counts across clients,
+                            - `patho`: pathological non-IID split scenario proposed in (McMahan et al., 2016),
+                            - `diri`: Dirichlet distribution-based split scenario proposed in (Hsu et al., 2019),
+                            - `pre`: pre-defined data split scenario
+                            
+  --mincls MINCLS       the minimum number of distinct classes per client (valid only if `split_type` is `patho` or `diri`)
+  --cncntrtn CNCNTRTN   a concentration parameter for Dirichlet distribution (valid only if `split_type` is `diri`)
+
+  --model_name {TwoNN,TwoCNN,SimpleCNN,FEMNISTCNN,Sent140LSTM,LeNet,MobileNet,SqueezeNet,VGG9,VGG9BN,VGG11,VGG11BN,VGG13,VGG13BN,ResNet10,ResNet18,ResNet34,ShuffleNet,MobileNeXt,SqueezeNeXt,MobileViT,StackedLSTM,StackedTransformer,LogReg,M5,DistilBert,SqueezeBert,MobileBert}
+                        a model to be used (NOTE: case sensitive)
+
+  --hidden_size HIDDEN_SIZE
+                        hidden channel size for vision models, or hidden dimension of language models
+  --dropout {Specificed Range: [0.00, 1.00]}
+                        dropout rate
+  --use_model_tokenizer
+                        use a model-specific tokenizer (if passed)
+  --use_pt_model        use a pre-trained model weights for fine-tuning (if passed)
+  --seq_len SEQ_LEN     maximum sequence length used for `torchtext.datasets`)
+  --num_layers NUM_LAYERS
+                        number of layers in recurrent cells
+  --num_embeddings NUM_EMBEDDINGS
+                        size of an embedding layer
+  --embedding_size EMBEDDING_SIZE
+                        output dimension of an embedding layer
+  --init_type {normal,xavier,xavier_uniform,kaiming,orthogonal,truncnorm,none}
+                        weight initialization method
+  --init_gain INIT_GAIN
+                        magnitude of variance used for weight initialization
+                        
+  --algorithm {fedavg,fedsgd,fedprox,fedavgm}
+                        federated learning algorithm to be used
+  --eval_type {local,global,both}
+                        the evaluation type of a model trained from FL algorithm
+                            - `local`: evaluation of personalization model on local hold-out dataset  (i.e., evaluate personalized models using each client's local evaluation set)
+                            - `global`: evaluation of a global model on global hold-out dataset (i.e., evaluate the global model using separate holdout dataset located at the server)
+                            - 'both': combination of `local` and `global` setting
+                            
+  --eval_fraction {Specificed Range: [0.00, 1.00]}
+                        fraction of randomly selected (unparticipated) clients for the evaluation (valid only if `eval_type` is `local` or `both`)
+  --eval_every EVAL_EVERY
+                        frequency of the evaluation (i.e., evaluate peformance of a model every `eval_every` round)
+  --eval_metrics {acc1,acc5,auroc,auprc,youdenj,f1,precision,recall,seqacc,mse,mae,mape,rmse,r2,d2} [{acc1,acc5,auroc,auprc,youdenj,f1,precision,recall,seqacc,mse,mae,mape,rmse,r2,d2} ...]
+                        metric(s) used for evaluation
+  --K K                 number of total cilents participating in federated training
+  --R R                 number of total federated learning rounds
+  --C {Specificed Range: [0.00, 1.00]}
+                        sampling fraction of clients per round (full participation when 0 is passed)
+  --E E                 number of local epochs
+  --B B                 local batch size (full-batch training when zero is passed)
+  --beta1 {Specificed Range: [0.00, 1.00]}
+                        server momentum factor
+  --no_shuffle          do not shuffle data when training (if passed)
+  --optimizer OPTIMIZER
+                        type of optimization method (NOTE: should be a sub-module of `torch.optim`, thus case-sensitive)
+  --max_grad_norm {Specificed Range: [0.00, inf]}
+                        a constant required for gradient clipping
+  --weight_decay {Specificed Range: [0.00, 1.00]}
+                        weight decay (L2 penalty)
+  --momentum {Specificed Range: [0.00, 1.00]}
+                        momentum factor
+  --lr {Specificed Range: [0.00, 100.00]}
+                        learning rate for local updates in each client
+  --lr_decay {Specificed Range: [0.00, 1.00]}
+                        decay rate of learning rate
+  --lr_decay_step LR_DECAY_STEP
+                        intervals of learning rate decay
+  --criterion CRITERION
+                        objective function (NOTE: should be a submodule of `torch.nn`, thus case-sensitive)
+  --mu {Specificed Range: [0.00, 1000000.00]}
+                        constant for proximity regularization term (valid only if the algorithm is `fedprox`)
+```
+
 ## Example Commands
 * See shell files prepared in `commands` directory.
 
