@@ -1,0 +1,1122 @@
+{
+    "round_1": {
+        "client_1": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.01300705467372134,
+            "recall": 0.06349206349206349,
+            "f1": 0.02035002035002035,
+            "mcc": 0.00403932146903377,
+            "kappa": 0.0034852546916889215,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.09      0.75      0.17         4\n       fall3       0.11      0.25      0.15         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.01      0.05      0.02        63\nweighted avg       0.01      0.06      0.02        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.06492819349962207,
+            "recall": 0.06349206349206349,
+            "f1": 0.04854119425547996,
+            "mcc": 0.0011459506140007656,
+            "kappa": 0.0010749798441279657,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.12      0.25      0.17         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       1.00      0.33      0.50         3\n        shoe       0.05      0.25      0.08         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.10      0.25      0.14         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.07      0.06      0.05        63\nweighted avg       0.06      0.06      0.05        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.05731922398589065,
+            "recall": 0.06349206349206349,
+            "f1": 0.054892726321297755,
+            "mcc": 0.002034360482267342,
+            "kappa": 0.001879699248120259,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.08      0.25      0.12         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.50      0.33      0.40         3\n        shoe       0.11      0.25      0.15         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.33      0.25      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.05      0.06      0.05        63\nweighted avg       0.06      0.06      0.05        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.06432350718065004,
+            "recall": 0.09523809523809523,
+            "f1": 0.06428571428571428,
+            "mcc": 0.04871412635046133,
+            "kappa": 0.043420351624933295,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.17      0.25      0.20         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.50      0.25      0.33         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.20      0.33      0.25         3\n        hair       0.17      0.33      0.22         3\n        shoe       0.07      0.50      0.12         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.06      0.09      0.06        63\nweighted avg       0.06      0.10      0.06        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.047619047619047616,
+            "precision": 0.014885361552028218,
+            "recall": 0.047619047619047616,
+            "f1": 0.02208328070397036,
+            "mcc": -0.00618976609223825,
+            "kappa": -0.005586592178770999,
+            "hamming_loss_val": 0.9523809523809523,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.11      0.33      0.17         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.04      0.25      0.07         4\n        wash       0.11      0.25      0.15         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.05        63\n   macro avg       0.01      0.04      0.02        63\nweighted avg       0.01      0.05      0.02        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.04023912595341167,
+            "recall": 0.07936507936507936,
+            "f1": 0.04953071619738286,
+            "mcc": 0.019078877268038575,
+            "kappa": 0.01774193548387104,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.14      0.25      0.18         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.09      0.50      0.15         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.40      0.50      0.44         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.03      0.07      0.04        63\nweighted avg       0.04      0.08      0.05        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.025510204081632654,
+            "recall": 0.06349206349206349,
+            "f1": 0.034644233919596236,
+            "mcc": 0.012747184019575529,
+            "kappa": 0.01169901621909053,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.20      0.33      0.25         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.07      0.25      0.11         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.05      0.33      0.09         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.14      0.25      0.18         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.02      0.06      0.03        63\nweighted avg       0.03      0.06      0.03        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.0417989417989418,
+            "recall": 0.1111111111111111,
+            "f1": 0.05374001452432824,
+            "mcc": 0.058872597775290685,
+            "kappa": 0.05186777747917215,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.12      0.25      0.17         4\n       fall3       0.13      1.00      0.24         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.40      0.50      0.44         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.03      0.09      0.04        63\nweighted avg       0.04      0.11      0.05        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.019652305366591082,
+            "recall": 0.031746031746031744,
+            "f1": 0.024242424242424242,
+            "mcc": -0.03617212143371002,
+            "kappa": -0.03306451612903216,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.14      0.25      0.18         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.17      0.25      0.20         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.02      0.03      0.02        63\nweighted avg       0.02      0.03      0.02        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.03487253487253487,
+            "recall": 0.09523809523809523,
+            "f1": 0.04892144892144892,
+            "mcc": 0.042191598050064096,
+            "kappa": 0.03906877174203904,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.17      0.33      0.22         3\n       chair       0.00      0.00      0.00         4\n        clap       0.17      0.25      0.20         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.17      0.50      0.25         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.09      0.50      0.15         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.08      0.04        63\nweighted avg       0.03      0.10      0.05        63\n"
+        },
+        "global": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.014991181657848324,
+            "recall": 0.06349206349206349,
+            "f1": 0.024242424242424242,
+            "mcc": 0.0002874604496900254,
+            "kappa": 0.0002689618074233069,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.11      0.50      0.18         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.12      0.50      0.20         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.01      0.05      0.02        63\nweighted avg       0.01      0.06      0.02        63\n"
+        }
+    },
+    "round_2": {
+        "client_1": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.006993328732459167,
+            "recall": 0.031746031746031744,
+            "f1": 0.01138649091865466,
+            "mcc": -0.0331242731588338,
+            "kappa": -0.03029490616621966,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.04      0.25      0.07         4\n       fall3       0.07      0.25      0.11         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.01      0.03      0.01        63\nweighted avg       0.01      0.03      0.01        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.08783068783068783,
+            "recall": 0.07936507936507936,
+            "f1": 0.059398496240601506,
+            "mcc": 0.018580109151224333,
+            "kappa": 0.01774193548387093,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.08      0.25      0.12         4\n        clap       0.00      0.00      0.00         4\n       cloth       1.00      0.25      0.40         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.13      0.50      0.21         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.17      0.25      0.20         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.07      0.07      0.05        63\nweighted avg       0.09      0.08      0.06        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.06390893057559724,
+            "recall": 0.09523809523809523,
+            "f1": 0.07043432757718471,
+            "mcc": 0.038591364879039955,
+            "kappa": 0.035973154362416104,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.17      0.25      0.20         4\n       fall3       0.10      0.25      0.14         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.33      0.33      0.33         3\n        shoe       0.11      0.25      0.15         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.33      0.25      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.05      0.25      0.08         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.06      0.08      0.06        63\nweighted avg       0.06      0.10      0.07        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.0775132275132275,
+            "recall": 0.12698412698412698,
+            "f1": 0.0828237018713209,
+            "mcc": 0.08549092906060717,
+            "kappa": 0.07845744680851041,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.20      0.25      0.22         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.50      0.25      0.33         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.25      0.67      0.36         3\n        hair       0.33      0.67      0.44         3\n        shoe       0.08      0.50      0.14         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.07      0.12      0.08        63\nweighted avg       0.08      0.13      0.08        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.05777709944376611,
+            "recall": 0.07936507936507936,
+            "f1": 0.056521256521256516,
+            "mcc": 0.02387481207006182,
+            "kappa": 0.0216867469879517,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.17      0.25      0.20         4\n       fall3       0.11      0.25      0.15         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.04      0.25      0.07         4\n        wash       0.50      0.25      0.33         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.05      0.07      0.05        63\nweighted avg       0.06      0.08      0.06        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.04656084656084656,
+            "recall": 0.06349206349206349,
+            "f1": 0.043750833666800056,
+            "mcc": 0.0015178159552342856,
+            "kappa": 0.0013433637829122214,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.33      0.25      0.29         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.07      0.50      0.12         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.33      0.25      0.29         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.04      0.05      0.04        63\nweighted avg       0.05      0.06      0.04        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.0254724111866969,
+            "recall": 0.06349206349206349,
+            "f1": 0.03466729594549143,
+            "mcc": 0.0091873779235409,
+            "kappa": 0.008535609495865515,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.20      0.33      0.25         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.07      0.25      0.11         4\n       fall4       0.06      0.33      0.10         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.14      0.25      0.18         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.02      0.06      0.03        63\nweighted avg       0.03      0.06      0.03        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.039442039442039445,
+            "recall": 0.09523809523809523,
+            "f1": 0.045474045474045474,
+            "mcc": 0.041251619333283744,
+            "kappa": 0.034936844934157496,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.12      1.00      0.22         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.50      0.50         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.08      0.04        63\nweighted avg       0.04      0.10      0.05        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.012411982336794367,
+            "recall": 0.031746031746031744,
+            "f1": 0.017065060543321412,
+            "mcc": -0.035455996976659396,
+            "kappa": -0.032786885245901676,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.05      0.25      0.09         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.14      0.25      0.18         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.01      0.03      0.01        63\nweighted avg       0.01      0.03      0.02        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.06288737717309147,
+            "recall": 0.07936507936507936,
+            "f1": 0.0618039808515999,
+            "mcc": 0.022888921105819998,
+            "kappa": 0.022210329141022167,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.14      0.33      0.20         3\n       chair       0.00      0.00      0.00         4\n        clap       0.10      0.25      0.14         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.20      0.25      0.22         4\n       fall3       0.08      0.25      0.12         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.05      0.07      0.05        63\nweighted avg       0.06      0.08      0.06        63\n"
+        },
+        "global": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.03928170594837262,
+            "recall": 0.06349206349206349,
+            "f1": 0.04431071573928717,
+            "mcc": 0.0002781550453175531,
+            "kappa": 0.0002689618074233069,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.11      0.25      0.15         4\n       fall3       0.09      0.25      0.13         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.08      0.25      0.12         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.33      0.25      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.03      0.05      0.04        63\nweighted avg       0.04      0.06      0.04        63\n"
+        }
+    },
+    "round_3": {
+        "client_1": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.012805122048819529,
+            "recall": 0.031746031746031744,
+            "f1": 0.017590874733731877,
+            "mcc": -0.03085549559547108,
+            "kappa": -0.028915662650602414,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.14      0.25      0.18         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.06      0.25      0.10         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.01      0.03      0.01        63\nweighted avg       0.01      0.03      0.02        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.1201058201058201,
+            "recall": 0.1111111111111111,
+            "f1": 0.08972696290992031,
+            "mcc": 0.055341160767760855,
+            "kappa": 0.05212251477700158,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.33      0.25      0.29         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.12      0.50      0.20         4\n       fall3       1.00      0.25      0.40         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.17      0.25      0.20         4\n        walk       0.07      0.25      0.11         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.20      0.25      0.22         4\n\n    accuracy                           0.11        63\n   macro avg       0.10      0.09      0.07        63\nweighted avg       0.12      0.11      0.09        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.07059712773998489,
+            "recall": 0.12698412698412698,
+            "f1": 0.08141001855287569,
+            "mcc": 0.07434990748520284,
+            "kappa": 0.06979865771812066,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.14      0.25      0.18         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.14      0.75      0.24         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.33      0.33      0.33         3\n        shoe       0.14      0.25      0.18         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.33      0.25      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.10      0.25      0.14         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.06      0.11      0.07        63\nweighted avg       0.07      0.13      0.08        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.048757415424082094,
+            "recall": 0.09523809523809523,
+            "f1": 0.05632885632885633,
+            "mcc": 0.04664022509859901,
+            "kappa": 0.043420351624933406,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.18      0.50      0.27         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.11      0.25      0.15         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.50      0.33      0.40         3\n        shoe       0.10      0.50      0.17         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.05      0.08      0.05        63\nweighted avg       0.05      0.10      0.06        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.054421768707483,
+            "recall": 0.1111111111111111,
+            "f1": 0.057074142788428504,
+            "mcc": 0.06168892422112377,
+            "kappa": 0.055168719871451444,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.14      0.33      0.20         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.17      0.75      0.27         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.08      0.50      0.14         4\n        wash       0.50      0.25      0.33         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.05      0.10      0.05        63\nweighted avg       0.05      0.11      0.06        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.048508862234352426,
+            "recall": 0.09523809523809523,
+            "f1": 0.05805399082710007,
+            "mcc": 0.037415147144035904,
+            "kappa": 0.03519613111230513,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.11      0.25      0.15         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.08      0.25      0.12         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.12      0.50      0.19         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.33      0.25      0.29         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.12      0.25      0.17         4\n\n    accuracy                           0.10        63\n   macro avg       0.04      0.08      0.05        63\nweighted avg       0.05      0.10      0.06        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.0367177173899863,
+            "recall": 0.06349206349206349,
+            "f1": 0.03916233159930639,
+            "mcc": 0.006561065451847936,
+            "kappa": 0.006149732620320814,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.50      0.33      0.40         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.09      0.25      0.13         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.06      0.25      0.10         4\n       fall4       0.07      0.33      0.12         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.04      0.06      0.04        63\nweighted avg       0.04      0.06      0.04        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.03825803825803826,
+            "recall": 0.09523809523809523,
+            "f1": 0.04355850867478774,
+            "mcc": 0.043932258668807116,
+            "kappa": 0.03493684493415761,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.10      1.00      0.19         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.50      0.50         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.08      0.04        63\nweighted avg       0.04      0.10      0.04        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.029609279609279608,
+            "recall": 0.07936507936507936,
+            "f1": 0.04245253657018363,
+            "mcc": 0.019048969502747613,
+            "kappa": 0.01800591238914262,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.06      0.25      0.10         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.15      0.50      0.24         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.25      0.50      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.02      0.07      0.04        63\nweighted avg       0.03      0.08      0.04        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.053210678210678215,
+            "recall": 0.07936507936507936,
+            "f1": 0.0531024531024531,
+            "mcc": 0.023276330415670943,
+            "kappa": 0.022210329141022167,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.18      0.50      0.27         4\n       fall3       0.06      0.25      0.10         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.05      0.07      0.05        63\nweighted avg       0.05      0.08      0.05        63\n"
+        },
+        "global": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.01828788495455162,
+            "recall": 0.06349206349206349,
+            "f1": 0.028083960857070104,
+            "mcc": 0.0011427961331655955,
+            "kappa": 0.0010749798441279657,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.08      0.25      0.12         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.11      0.50      0.18         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.10      0.25      0.14         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.02      0.05      0.02        63\nweighted avg       0.02      0.06      0.03        63\n"
+        }
+    },
+    "round_4": {
+        "client_1": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.008465608465608466,
+            "recall": 0.06349206349206349,
+            "f1": 0.014939309056956115,
+            "mcc": 0.006109302045047803,
+            "kappa": 0.005351886540005291,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.13      1.00      0.24         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.01      0.05      0.01        63\nweighted avg       0.01      0.06      0.01        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.01602418745275888,
+            "recall": 0.1111111111111111,
+            "f1": 0.027908599337170766,
+            "mcc": 0.067151177253427,
+            "kappa": 0.05135789190642637,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.17      1.00      0.29         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.09      0.75      0.15         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.01      0.09      0.02        63\nweighted avg       0.02      0.11      0.03        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.07277869002006933,
+            "recall": 0.12698412698412698,
+            "f1": 0.06897040581251107,
+            "mcc": 0.0790594899640545,
+            "kappa": 0.06879871002418692,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.13      0.50      0.21         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.14      1.00      0.24         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.50      0.33      0.40         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.07      0.11      0.06        63\nweighted avg       0.07      0.13      0.07        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.015449735449735451,
+            "recall": 0.1111111111111111,
+            "f1": 0.027038861521620144,
+            "mcc": 0.06866712978014829,
+            "kappa": 0.051102743410435525,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.08      0.75      0.15         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.16      1.00      0.28         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.01      0.09      0.02        63\nweighted avg       0.02      0.11      0.03        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.018722018722018723,
+            "recall": 0.09523809523809523,
+            "f1": 0.03082010582010582,
+            "mcc": 0.04235625106186564,
+            "kappa": 0.037265415549597836,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.08      0.33      0.12         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.15      1.00      0.27         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.08      0.25      0.12         4\n\n    accuracy                           0.10        63\n   macro avg       0.02      0.08      0.03        63\nweighted avg       0.02      0.10      0.03        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.02062298603651987,
+            "recall": 0.12698412698412698,
+            "f1": 0.035108209021252494,
+            "mcc": 0.08512462345278182,
+            "kappa": 0.06779661016949157,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.11      1.00      0.21         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.21      1.00      0.35         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.02      0.11      0.03        63\nweighted avg       0.02      0.13      0.04        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.036885865457294026,
+            "recall": 0.15873015873015872,
+            "f1": 0.059081035923141186,
+            "mcc": 0.11780991795437427,
+            "kappa": 0.10338345864661658,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.19      1.00      0.32         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.15      0.75      0.25         4\n       fall4       0.14      0.33      0.20         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.13      0.50      0.21         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.16        63\n   macro avg       0.03      0.14      0.05        63\nweighted avg       0.04      0.16      0.06        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.017704517704517704,
+            "recall": 0.09523809523809523,
+            "f1": 0.02962962962962963,
+            "mcc": 0.03937546829093439,
+            "kappa": 0.03441785426189825,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.15      1.00      0.27         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.12      0.50      0.20         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.01      0.08      0.02        63\nweighted avg       0.02      0.10      0.03        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.02129319009114405,
+            "recall": 0.07936507936507936,
+            "f1": 0.03319895859578399,
+            "mcc": 0.019170811391872156,
+            "kappa": 0.016949152542372725,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.12      0.50      0.19         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.09      0.25      0.13         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.08      0.25      0.12         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.04      0.25      0.07         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.02      0.07      0.03        63\nweighted avg       0.02      0.08      0.03        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.03054124006504959,
+            "recall": 0.07936507936507936,
+            "f1": 0.04126984126984127,
+            "mcc": 0.029222792440686048,
+            "kappa": 0.025599999999999956,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.04      0.33      0.07         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.18      0.50      0.27         4\n       fall3       0.07      0.25      0.11         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.20      0.25      0.22         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.03      0.07      0.04        63\nweighted avg       0.03      0.08      0.04        63\n"
+        },
+        "global": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.01805166511048864,
+            "recall": 0.12698412698412698,
+            "f1": 0.031507339778016466,
+            "mcc": 0.08731443924452532,
+            "kappa": 0.06779661016949157,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.12      1.00      0.21         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.17      1.00      0.29         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.01      0.11      0.03        63\nweighted avg       0.02      0.13      0.03        63\n"
+        }
+    },
+    "round_5": {
+        "client_1": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.02631202631202631,
+            "recall": 0.06349206349206349,
+            "f1": 0.027432111055804436,
+            "mcc": 0.004312877466267571,
+            "kappa": 0.0034852546916890326,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.08      0.75      0.15         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.33      0.25      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.02      0.05      0.02        63\nweighted avg       0.03      0.06      0.03        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.0045351473922902496,
+            "recall": 0.031746031746031744,
+            "f1": 0.007936507936507936,
+            "mcc": -0.030259644981287723,
+            "kappa": -0.025346851654215685,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.07      0.50      0.12         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.00      0.03      0.01        63\nweighted avg       0.00      0.03      0.01        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.029356545485577742,
+            "recall": 0.1111111111111111,
+            "f1": 0.0438165009593581,
+            "mcc": 0.06163340589787793,
+            "kappa": 0.0531400966183575,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.13      1.00      0.23         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.22      0.50      0.31         4\n        walk       0.00      0.00      0.00         4\n        wash       0.11      0.25      0.15         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.02      0.09      0.04        63\nweighted avg       0.03      0.11      0.04        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.010052910052910053,
+            "recall": 0.06349206349206349,
+            "f1": 0.016849816849816852,
+            "mcc": 0.013692737153614475,
+            "kappa": 0.012224289131012367,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.10      0.33      0.15         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.11      1.00      0.20         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.01      0.07      0.02        63\nweighted avg       0.01      0.06      0.02        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.01452991452991453,
+            "recall": 0.07936507936507936,
+            "f1": 0.024257224257224257,
+            "mcc": 0.02428829400531376,
+            "kappa": 0.021948608137045023,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.10      0.33      0.15         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.15      1.00      0.27         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.01      0.07      0.02        63\nweighted avg       0.01      0.08      0.02        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.10425685425685426,
+            "recall": 0.15873015873015872,
+            "f1": 0.1037037037037037,
+            "mcc": 0.1103975712228942,
+            "kappa": 0.10434549356223166,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       1.00      0.50      0.67         4\n        clap       0.19      0.75      0.30         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.27      0.75      0.40         4\n        walk       0.00      0.00      0.00         4\n        wash       0.18      0.50      0.27         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.16        63\n   macro avg       0.09      0.13      0.09        63\nweighted avg       0.10      0.16      0.10        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.0943562610229277,
+            "recall": 0.1111111111111111,
+            "f1": 0.07080327080327081,
+            "mcc": 0.059394221755485414,
+            "kappa": 0.055421686746987775,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.11      0.50      0.18         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.12      0.50      0.20         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.17      0.33      0.22         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.12      0.25      0.17         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       1.00      0.25      0.40         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.08      0.10      0.06        63\nweighted avg       0.09      0.11      0.07        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.030639730639730637,
+            "recall": 0.09523809523809523,
+            "f1": 0.04436304436304436,
+            "mcc": 0.043778861595617474,
+            "kappa": 0.04086538461538458,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.15      0.75      0.25         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.10      0.33      0.15         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.17      0.25      0.20         4\n        walk       0.00      0.00      0.00         4\n        wash       0.09      0.25      0.13         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.08      0.04        63\nweighted avg       0.03      0.10      0.04        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.05991168397183434,
+            "recall": 0.12698412698412698,
+            "f1": 0.07366477552812957,
+            "mcc": 0.07420030225654957,
+            "kappa": 0.06954887218045092,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.17      0.50      0.25         4\n        clap       0.16      0.75      0.26         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.29      0.50      0.36         4\n        walk       0.00      0.00      0.00         4\n        wash       0.33      0.25      0.29         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.05      0.11      0.06        63\nweighted avg       0.06      0.13      0.07        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.03888949426706864,
+            "recall": 0.12698412698412698,
+            "f1": 0.05366408506505125,
+            "mcc": 0.07818461823205969,
+            "kappa": 0.06929895245769524,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.17      1.00      0.30         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.11      0.50      0.17         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.25      0.25      0.25         4\n        walk       0.00      0.00      0.00         4\n        wash       0.08      0.25      0.12         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.03      0.11      0.04        63\nweighted avg       0.04      0.13      0.05        63\n"
+        },
+        "global": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.04268077601410935,
+            "recall": 0.12698412698412698,
+            "f1": 0.05904219237552571,
+            "mcc": 0.08027996138558502,
+            "kappa": 0.07154340836012851,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.14      0.33      0.20         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.14      1.00      0.25         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.20      0.25      0.22         4\n        walk       0.00      0.00      0.00         4\n        wash       0.22      0.50      0.31         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.04      0.11      0.05        63\nweighted avg       0.04      0.13      0.06        63\n"
+        }
+    },
+    "round_6": {
+        "client_1": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.015247715247715246,
+            "recall": 0.06349206349206349,
+            "f1": 0.02379208093493808,
+            "mcc": 0.027197459127009202,
+            "kappa": 0.02261372600578493,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.03      0.50      0.06         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.30      1.00      0.46         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.02      0.08      0.03        63\nweighted avg       0.02      0.06      0.02        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.11216931216931217,
+            "recall": 0.09523809523809523,
+            "f1": 0.08042328042328044,
+            "mcc": 0.040039439763385386,
+            "kappa": 0.03623188405797095,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       1.00      0.25      0.40         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.25      0.25      0.25         4\n        walk       0.17      0.25      0.20         4\n        wash       0.10      0.50      0.17         4\n       write       0.00      0.00      0.00         1\n         zip       0.25      0.25      0.25         4\n\n    accuracy                           0.10        63\n   macro avg       0.09      0.08      0.07        63\nweighted avg       0.11      0.10      0.08        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.05523809523809523,
+            "recall": 0.09523809523809523,
+            "f1": 0.05984830713894754,
+            "mcc": 0.03895578623079751,
+            "kappa": 0.035973154362416104,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.12      0.75      0.21         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.33      0.33      0.33         3\n        shoe       0.17      0.25      0.20         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.33      0.25      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.05      0.08      0.05        63\nweighted avg       0.06      0.10      0.06        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.02647130647130647,
+            "recall": 0.09523809523809523,
+            "f1": 0.03874155722895219,
+            "mcc": 0.05009048170327244,
+            "kappa": 0.04494680851063815,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.14      0.33      0.20         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.12      1.00      0.21         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.08      0.25      0.12         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.14      0.25      0.18         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.10      0.04        63\nweighted avg       0.03      0.10      0.04        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.14285714285714285,
+            "precision": 0.047790833505119215,
+            "recall": 0.14285714285714285,
+            "f1": 0.06840020856827579,
+            "mcc": 0.09931529770461335,
+            "kappa": 0.090860502405131,
+            "hamming_loss_val": 0.8571428571428571,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.09      0.33      0.14         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.43      0.75      0.55         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.21      1.00      0.35         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.10      0.50      0.16         4\n\n    accuracy                           0.14        63\n   macro avg       0.04      0.14      0.06        63\nweighted avg       0.05      0.14      0.07        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.11962445797032263,
+            "recall": 0.12698412698412698,
+            "f1": 0.08516984893796488,
+            "mcc": 0.07547189078476099,
+            "kappa": 0.07004830917874383,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       1.00      0.25      0.40         4\n        clap       0.16      0.75      0.26         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.14      0.50      0.22         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.50      0.25      0.33         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.08      0.25      0.12         4\n\n    accuracy                           0.13        63\n   macro avg       0.10      0.11      0.07        63\nweighted avg       0.12      0.13      0.09        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.0617535903250189,
+            "recall": 0.1111111111111111,
+            "f1": 0.07369614512471656,
+            "mcc": 0.06309751550383669,
+            "kappa": 0.060952887942507306,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.20      0.33      0.25         3\n       chair       0.33      0.25      0.29         4\n        clap       0.21      0.75      0.33         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.20      0.33      0.25         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.12      0.25      0.17         4\n\n    accuracy                           0.11        63\n   macro avg       0.06      0.10      0.07        63\nweighted avg       0.06      0.11      0.07        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.011063011063011064,
+            "recall": 0.031746031746031744,
+            "f1": 0.0164021164021164,
+            "mcc": -0.02934643966832298,
+            "kappa": -0.0275401069518717,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.09      0.25      0.13         4\n       fall4       0.11      0.33      0.17         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.01      0.03      0.02        63\nweighted avg       0.01      0.03      0.02        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.050298637973707996,
+            "recall": 0.12698412698412698,
+            "f1": 0.070140441569013,
+            "mcc": 0.07615836128507913,
+            "kappa": 0.07204070701660414,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.67      0.20         3\n       chair       0.00      0.00      0.00         4\n        clap       0.20      0.50      0.29         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.25      0.50      0.33         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.11      0.25      0.15         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.14      0.25      0.18         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.04      0.11      0.06        63\nweighted avg       0.05      0.13      0.07        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.07604667883413528,
+            "recall": 0.07936507936507936,
+            "f1": 0.043434343434343436,
+            "mcc": 0.03881021140362886,
+            "kappa": 0.029482071713147318,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.07      1.00      0.14         3\n       chair       0.00      0.00      0.00         4\n        clap       0.14      0.25      0.18         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       1.00      0.25      0.40         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.06      0.08      0.04        63\nweighted avg       0.08      0.08      0.04        63\n"
+        },
+        "global": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.029945233454005384,
+            "recall": 0.09523809523809523,
+            "f1": 0.04375696767001115,
+            "mcc": 0.041113609167837906,
+            "kappa": 0.0388115631691649,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.20      0.33      0.25         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.21      1.00      0.35         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.11      0.25      0.15         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.08      0.04        63\nweighted avg       0.03      0.10      0.04        63\n"
+        }
+    },
+    "round_7": {
+        "client_1": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.08783068783068783,
+            "recall": 0.09523809523809523,
+            "f1": 0.05991285403050109,
+            "mcc": 0.04594829228131686,
+            "kappa": 0.04009623095429016,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.13      1.00      0.24         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       1.00      0.33      0.50         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.09      0.08      0.06        63\nweighted avg       0.09      0.10      0.06        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.14285714285714285,
+            "precision": 0.09414136024780283,
+            "recall": 0.14285714285714285,
+            "f1": 0.07468792230696993,
+            "mcc": 0.09506754136329654,
+            "kappa": 0.08695652173913038,
+            "hamming_loss_val": 0.8571428571428571,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       1.00      0.25      0.40         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.22      1.00      0.36         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.14      0.50      0.22         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.12      0.50      0.19         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.14        63\n   macro avg       0.08      0.12      0.06        63\nweighted avg       0.09      0.14      0.07        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.1111111111111111,
+            "precision": 0.02391259534116677,
+            "recall": 0.1111111111111111,
+            "f1": 0.038447971781305115,
+            "mcc": 0.05881381412008558,
+            "kappa": 0.05161290322580647,
+            "hamming_loss_val": 0.8888888888888888,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.14      1.00      0.25         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.09      0.25      0.13         4\n        walk       0.00      0.00      0.00         4\n        wash       0.14      0.50      0.22         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.11        63\n   macro avg       0.02      0.09      0.03        63\nweighted avg       0.02      0.11      0.04        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.024082642503695136,
+            "recall": 0.09523809523809523,
+            "f1": 0.03449975692425896,
+            "mcc": 0.05119211072435151,
+            "kappa": 0.044184189512909255,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.12      1.00      0.21         3\n        hair       0.25      0.33      0.29         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.11      0.50      0.17         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.10        63\n   macro avg       0.02      0.10      0.04        63\nweighted avg       0.02      0.10      0.03        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.054115718589402804,
+            "recall": 0.15873015873015872,
+            "f1": 0.07825877825877825,
+            "mcc": 0.11829855748427795,
+            "kappa": 0.10936249666577746,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.38      0.75      0.50         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.16      1.00      0.27         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.08      0.25      0.12         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.18      0.50      0.27         4\n\n    accuracy                           0.16        63\n   macro avg       0.05      0.15      0.07        63\nweighted avg       0.05      0.16      0.08        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.09372637944066514,
+            "recall": 0.15873015873015872,
+            "f1": 0.09063423349137634,
+            "mcc": 0.11721255086945645,
+            "kappa": 0.10193652501344808,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.67      0.50      0.57         4\n        clap       0.17      0.75      0.27         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.14      1.00      0.25         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.16        63\n   macro avg       0.08      0.13      0.08        63\nweighted avg       0.09      0.16      0.09        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.14285714285714285,
+            "precision": 0.09633483022838765,
+            "recall": 0.14285714285714285,
+            "f1": 0.08773448773448773,
+            "mcc": 0.09825440641795748,
+            "kappa": 0.09086050240513088,
+            "hamming_loss_val": 0.8571428571428571,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       1.00      0.33      0.50         3\n       chair       0.25      0.25      0.25         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.14      0.33      0.20         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.18      1.00      0.30         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.11      0.50      0.18         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.17      0.25      0.20         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.14        63\n   macro avg       0.10      0.14      0.09        63\nweighted avg       0.10      0.14      0.09        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.14285714285714285,
+            "precision": 0.03445378151260504,
+            "recall": 0.14285714285714285,
+            "f1": 0.05341395817586293,
+            "mcc": 0.1032686979377507,
+            "kappa": 0.08572964256920179,
+            "hamming_loss_val": 0.8571428571428571,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.12      0.50      0.19         4\n       fall3       0.30      0.75      0.43         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.12      1.00      0.22         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.14        63\n   macro avg       0.03      0.12      0.04        63\nweighted avg       0.03      0.14      0.05        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.042568542568542575,
+            "recall": 0.12698412698412698,
+            "f1": 0.06349206349206349,
+            "mcc": 0.07201815674331179,
+            "kappa": 0.06779661016949146,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.27      0.75      0.40         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.12      0.50      0.20         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.18      0.50      0.27         4\n        walk       0.00      0.00      0.00         4\n        wash       0.09      0.25      0.13         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.04      0.11      0.05        63\nweighted avg       0.04      0.13      0.06        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.06976665309998642,
+            "recall": 0.12698412698412698,
+            "f1": 0.07739471857118915,
+            "mcc": 0.07438664636110613,
+            "kappa": 0.07079646017699115,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.08      0.33      0.13         3\n       chair       0.22      0.50      0.31         4\n        clap       0.23      0.75      0.35         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.08      0.25      0.12         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.06      0.11      0.07        63\nweighted avg       0.07      0.13      0.08        63\n"
+        },
+        "global": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.08966218966218965,
+            "recall": 0.12698412698412698,
+            "f1": 0.06627680311890838,
+            "mcc": 0.0768932230637803,
+            "kappa": 0.0682979295509546,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       1.00      0.25      0.40         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.15      1.00      0.27         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.12      0.25      0.17         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.13      0.50      0.21         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.07      0.11      0.05        63\nweighted avg       0.09      0.13      0.07        63\n"
+        }
+    },
+    "round_8": {
+        "client_1": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.016865079365079364,
+            "recall": 0.06349206349206349,
+            "f1": 0.025619604566972987,
+            "mcc": 0.014885117841491593,
+            "kappa": 0.014058355437665648,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.17      0.33      0.22         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.19      1.00      0.32         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.02      0.07      0.03        63\nweighted avg       0.02      0.06      0.03        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.02292768959435626,
+            "recall": 0.031746031746031744,
+            "f1": 0.02564102564102564,
+            "mcc": -0.02815737137166202,
+            "kappa": -0.025346851654215685,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.25      0.25      0.25         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.11      0.25      0.15         4\n\n    accuracy                           0.03        63\n   macro avg       0.02      0.03      0.02        63\nweighted avg       0.02      0.03      0.03        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.13668430335097,
+            "recall": 0.12698412698412698,
+            "f1": 0.1016803302517588,
+            "mcc": 0.07451361477247245,
+            "kappa": 0.07104557640750664,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.17      0.25      0.20         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.19      0.75      0.30         4\n       fall3       1.00      0.25      0.40         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.25      0.33      0.29         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.11      0.25      0.15         4\n\n    accuracy                           0.13        63\n   macro avg       0.12      0.11      0.09        63\nweighted avg       0.14      0.13      0.10        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.047898133612419326,
+            "recall": 0.09523809523809523,
+            "f1": 0.05234860924516097,
+            "mcc": 0.05141450762417671,
+            "kappa": 0.04646840148698872,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.20      0.33      0.25         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.12      1.00      0.21         3\n        hair       0.50      0.33      0.40         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.14      0.25      0.18         4\n\n    accuracy                           0.10        63\n   macro avg       0.05      0.10      0.05        63\nweighted avg       0.05      0.10      0.05        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.04984683932052353,
+            "recall": 0.15873015873015872,
+            "f1": 0.07263107263107264,
+            "mcc": 0.11981240424808129,
+            "kappa": 0.10983737669954674,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.17      0.33      0.22         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.38      0.75      0.50         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.16      1.00      0.27         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.17      0.75      0.27         4\n\n    accuracy                           0.16        63\n   macro avg       0.05      0.15      0.07        63\nweighted avg       0.05      0.16      0.07        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.0469187675070028,
+            "recall": 0.07936507936507936,
+            "f1": 0.04565381708238851,
+            "mcc": 0.022175635042433407,
+            "kappa": 0.0206378986866792,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.50      0.25      0.33         4\n        clap       0.18      0.75      0.29         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.06      0.25      0.10         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.04      0.07      0.04        63\nweighted avg       0.05      0.08      0.05        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.015873015873015872,
+            "precision": 0.015873015873015872,
+            "recall": 0.015873015873015872,
+            "f1": 0.015873015873015872,
+            "mcc": -0.04379732796624895,
+            "kappa": -0.041877834089090404,
+            "hamming_loss_val": 0.9841269841269841,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.25      0.25      0.25         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.02        63\n   macro avg       0.01      0.01      0.01        63\nweighted avg       0.02      0.02      0.02        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.032451499118165784,
+            "recall": 0.09523809523809523,
+            "f1": 0.040917107583774245,
+            "mcc": 0.044674232963666446,
+            "kappa": 0.0370072405470635,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.11      1.00      0.20         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.20      0.25      0.22         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.20      0.25      0.22         4\n\n    accuracy                           0.10        63\n   macro avg       0.03      0.08      0.03        63\nweighted avg       0.03      0.10      0.04        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.08820861678004535,
+            "recall": 0.09523809523809523,
+            "f1": 0.06243386243386243,
+            "mcc": 0.03932634922117814,
+            "kappa": 0.03649047491279833,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.21      0.75      0.33         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       1.00      0.25      0.40         4\n        walk       0.05      0.25      0.08         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.12      0.25      0.17         4\n\n    accuracy                           0.10        63\n   macro avg       0.07      0.08      0.05        63\nweighted avg       0.09      0.10      0.06        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.02595311290963465,
+            "recall": 0.09523809523809523,
+            "f1": 0.038313597043755775,
+            "mcc": 0.04654382041675981,
+            "kappa": 0.042655291922154115,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.09      0.33      0.14         3\n       chair       0.00      0.00      0.00         4\n        clap       0.17      1.00      0.30         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.17      0.25      0.20         4\n\n    accuracy                           0.10        63\n   macro avg       0.02      0.08      0.03        63\nweighted avg       0.03      0.10      0.04        63\n"
+        },
+        "global": {
+            "accuracy": 0.09523809523809523,
+            "precision": 0.058049886621315196,
+            "recall": 0.09523809523809523,
+            "f1": 0.06046863189720332,
+            "mcc": 0.04011841145068075,
+            "kappa": 0.03803911063487808,
+            "hamming_loss_val": 0.9047619047619048,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.50      0.25      0.33         4\n        clap       0.21      0.75      0.33         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.20      0.50      0.29         4\n\n    accuracy                           0.10        63\n   macro avg       0.05      0.08      0.05        63\nweighted avg       0.06      0.10      0.06        63\n"
+        }
+    },
+    "round_9": {
+        "client_1": {
+            "accuracy": 0.047619047619047616,
+            "precision": 0.0209750566893424,
+            "recall": 0.047619047619047616,
+            "f1": 0.027714789619551525,
+            "mcc": -0.009786561364055896,
+            "kappa": -0.009345794392523477,
+            "hamming_loss_val": 0.9523809523809523,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.07      0.25      0.11         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.07      0.25      0.11         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.25      0.33      0.29         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.05        63\n   macro avg       0.02      0.04      0.03        63\nweighted avg       0.02      0.05      0.03        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.09025832555244319,
+            "recall": 0.07936507936507936,
+            "f1": 0.053562477622627995,
+            "mcc": 0.028519599527973005,
+            "kappa": 0.02299465240641707,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       1.00      0.25      0.40         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.09      0.75      0.16         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.33      0.25      0.29         4\n\n    accuracy                           0.08        63\n   macro avg       0.07      0.07      0.04        63\nweighted avg       0.09      0.08      0.05        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.025608465608465608,
+            "recall": 0.07936507936507936,
+            "f1": 0.03518214437754667,
+            "mcc": 0.02184510290741043,
+            "kappa": 0.02011263073209979,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.12      0.75      0.21         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.11      0.33      0.17         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.20      0.25      0.22         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.02      0.07      0.03        63\nweighted avg       0.03      0.08      0.04        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.14285714285714285,
+            "precision": 0.062229437229437225,
+            "recall": 0.14285714285714285,
+            "f1": 0.080849309420738,
+            "mcc": 0.10060622762983107,
+            "kappa": 0.09400798934753662,
+            "hamming_loss_val": 0.8571428571428571,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.00      0.00      0.00         4\n        clap       0.17      0.75      0.27         4\n       cloth       0.25      0.25      0.25         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.18      0.67      0.29         3\n        shoe       0.33      0.50      0.40         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.14        63\n   macro avg       0.06      0.13      0.07        63\nweighted avg       0.06      0.14      0.08        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.0808080808080808,
+            "recall": 0.15873015873015872,
+            "f1": 0.08822465012941202,
+            "mcc": 0.12247932136871441,
+            "kappa": 0.11479321314952284,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.27      0.75      0.40         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.17      1.00      0.29         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.25      0.25      0.25         4\n        wash       0.50      0.25      0.33         4\n       write       0.12      1.00      0.22         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.16        63\n   macro avg       0.08      0.19      0.09        63\nweighted avg       0.08      0.16      0.09        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.0496031746031746,
+            "recall": 0.06349206349206349,
+            "f1": 0.049927849927849925,
+            "mcc": 0.004164594033816907,
+            "kappa": 0.0037523452157597337,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.50      0.33      0.40         3\n        shoe       0.25      0.25      0.25         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.06      0.25      0.10         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.05      0.06      0.05        63\nweighted avg       0.05      0.06      0.05        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.1746031746031746,
+            "precision": 0.1296422272612749,
+            "recall": 0.1746031746031746,
+            "f1": 0.11696610268038839,
+            "mcc": 0.13154117372567803,
+            "kappa": 0.12639999999999996,
+            "hamming_loss_val": 0.8253968253968254,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.20      0.33      0.25         3\n       chair       0.12      0.25      0.17         4\n        clap       0.00      0.00      0.00         4\n       cloth       1.00      0.25      0.40         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.22      0.50      0.31         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.14      0.33      0.20         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.25      1.00      0.40         3\n        hair       0.20      0.33      0.25         3\n        shoe       0.10      0.25      0.14         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.00      0.00      0.00         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.17        63\n   macro avg       0.12      0.17      0.11        63\nweighted avg       0.13      0.17      0.12        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.04157218442932729,
+            "recall": 0.07936507936507936,
+            "f1": 0.04679505030382224,
+            "mcc": 0.02377466321138582,
+            "kappa": 0.022471910112359494,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.50      0.33      0.40         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.13      0.50      0.21         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.10      0.33      0.15         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.07      0.25      0.11         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.04      0.07      0.05        63\nweighted avg       0.04      0.08      0.05        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.09456975772765246,
+            "recall": 0.06349206349206349,
+            "f1": 0.05970819304152638,
+            "mcc": 0.0070127310186765095,
+            "kappa": 0.006415396952686447,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.05      0.33      0.09         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.33      0.33      0.33         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       1.00      0.25      0.40         4\n        walk       0.00      0.00      0.00         4\n        wash       0.20      0.25      0.22         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.08      0.06      0.06        63\nweighted avg       0.09      0.06      0.06        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.05427059712773998,
+            "recall": 0.07936507936507936,
+            "f1": 0.05139833711262283,
+            "mcc": 0.02761178715834337,
+            "kappa": 0.025859770727805875,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.11      0.67      0.19         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.20      0.25      0.22         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.07      0.25      0.11         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.05      0.07      0.05        63\nweighted avg       0.05      0.08      0.05        63\n"
+        },
+        "global": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.111432350718065,
+            "recall": 0.15873015873015872,
+            "f1": 0.11281522710094137,
+            "mcc": 0.11130102314872731,
+            "kappa": 0.10626338329764451,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.12      0.33      0.18         3\n       chair       0.33      0.25      0.29         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.33      0.25      0.29         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.19      0.75      0.30         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.14      0.33      0.20         3\n        shoe       0.20      0.50      0.29         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.25      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.16        63\n   macro avg       0.10      0.14      0.10        63\nweighted avg       0.11      0.16      0.11        63\n"
+        }
+    },
+    "round_10": {
+        "client_1": {
+            "accuracy": 0.047619047619047616,
+            "precision": 0.012433862433862434,
+            "recall": 0.047619047619047616,
+            "f1": 0.01971595655806182,
+            "mcc": -0.013427854564695748,
+            "kappa": -0.012590409858022955,
+            "hamming_loss_val": 0.9523809523809523,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.06      0.25      0.10         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.13      0.50      0.21         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.05        63\n   macro avg       0.01      0.04      0.02        63\nweighted avg       0.01      0.05      0.02        63\n"
+        },
+        "client_2": {
+            "accuracy": 0.031746031746031744,
+            "precision": 0.005772005772005772,
+            "recall": 0.031746031746031744,
+            "f1": 0.009768009768009768,
+            "mcc": -0.03052534288441201,
+            "kappa": -0.027814923776410927,
+            "hamming_loss_val": 0.9682539682539683,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.09      0.50      0.15         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.03        63\n   macro avg       0.00      0.03      0.01        63\nweighted avg       0.01      0.03      0.01        63\n"
+        },
+        "client_3": {
+            "accuracy": 0.1746031746031746,
+            "precision": 0.17974300831443688,
+            "recall": 0.1746031746031746,
+            "f1": 0.12454705788039121,
+            "mcc": 0.1283296006087242,
+            "kappa": 0.12077294685990336,
+            "hamming_loss_val": 0.8253968253968254,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       1.00      0.25      0.40         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.20      0.25      0.22         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.17      0.75      0.27         4\n       fall3       1.00      0.25      0.40         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.33      0.67      0.44         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.21      0.75      0.33         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.17        63\n   macro avg       0.15      0.15      0.11        63\nweighted avg       0.18      0.17      0.12        63\n"
+        },
+        "client_4": {
+            "accuracy": 0.15873015873015872,
+            "precision": 0.1312083973374296,
+            "recall": 0.15873015873015872,
+            "f1": 0.09705215419501136,
+            "mcc": 0.12455570630475844,
+            "kappa": 0.10554513795874632,
+            "hamming_loss_val": 0.8412698412698413,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       1.00      0.25      0.40         4\n        clap       0.19      0.75      0.30         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       1.00      0.67      0.80         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.13      1.00      0.23         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.16        63\n   macro avg       0.12      0.14      0.09        63\nweighted avg       0.13      0.16      0.10        63\n"
+        },
+        "client_5": {
+            "accuracy": 0.1746031746031746,
+            "precision": 0.10186130007558579,
+            "recall": 0.1746031746031746,
+            "f1": 0.10926787869143757,
+            "mcc": 0.13298125999804122,
+            "kappa": 0.12523364485981303,
+            "hamming_loss_val": 0.8253968253968254,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.25      0.33      0.29         3\n       chair       0.50      0.25      0.33         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.30      0.75      0.43         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.19      1.00      0.32         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.14      0.50      0.22         4\n        walk       0.33      0.25      0.29         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.17        63\n   macro avg       0.09      0.16      0.10        63\nweighted avg       0.10      0.17      0.11        63\n"
+        },
+        "client_6": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.0463980463980464,
+            "recall": 0.12698412698412698,
+            "f1": 0.057142857142857134,
+            "mcc": 0.08271254401665386,
+            "kappa": 0.06904889844169793,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.08      0.50      0.13         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.50      0.50      0.50         4\n        walk       0.15      1.00      0.27         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.04      0.11      0.05        63\nweighted avg       0.05      0.13      0.06        63\n"
+        },
+        "client_7": {
+            "accuracy": 0.1746031746031746,
+            "precision": 0.09334178115690721,
+            "recall": 0.1746031746031746,
+            "f1": 0.10594608213655832,
+            "mcc": 0.13563368734434011,
+            "kappa": 0.1261669778607628,
+            "hamming_loss_val": 0.8253968253968254,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.25      0.33      0.29         3\n       chair       0.67      0.50      0.57         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.20      0.25      0.22         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.14      0.33      0.20         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.18      1.00      0.30         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.18      0.75      0.29         4\n        walk       0.00      0.00      0.00         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.17        63\n   macro avg       0.08      0.17      0.10        63\nweighted avg       0.09      0.17      0.11        63\n"
+        },
+        "client_8": {
+            "accuracy": 0.14285714285714285,
+            "precision": 0.08366013071895424,
+            "recall": 0.14285714285714285,
+            "f1": 0.09848828420256991,
+            "mcc": 0.09728947438217159,
+            "kappa": 0.09231590181430072,
+            "hamming_loss_val": 0.8571428571428571,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.33      0.33      0.33         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.20      0.50      0.29         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.11      0.33      0.17         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.12      0.50      0.19         4\n        walk       0.50      0.50      0.50         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.17      0.25      0.20         4\n\n    accuracy                           0.14        63\n   macro avg       0.08      0.13      0.09        63\nweighted avg       0.08      0.14      0.10        63\n"
+        },
+        "client_9": {
+            "accuracy": 0.06349206349206349,
+            "precision": 0.010836385836385836,
+            "recall": 0.06349206349206349,
+            "f1": 0.01805166511048864,
+            "mcc": 0.00032221357770590727,
+            "kappa": 0.0002689618074233069,
+            "hamming_loss_val": 0.9365079365079365,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.09      0.75      0.17         4\n        walk       0.08      0.25      0.12         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.06        63\n   macro avg       0.01      0.05      0.01        63\nweighted avg       0.01      0.06      0.02        63\n"
+        },
+        "client_10": {
+            "accuracy": 0.07936507936507936,
+            "precision": 0.025102212602212605,
+            "recall": 0.07936507936507936,
+            "f1": 0.0378167641325536,
+            "mcc": 0.024296271766739378,
+            "kappa": 0.02194860813704469,
+            "hamming_loss_val": 0.9206349206349206,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.06      0.33      0.11         3\n       chair       0.00      0.00      0.00         4\n        clap       0.00      0.00      0.00         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.00      0.00      0.00         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.18      0.50      0.27         4\n        walk       0.17      0.50      0.25         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.08        63\n   macro avg       0.02      0.07      0.03        63\nweighted avg       0.03      0.08      0.04        63\n"
+        },
+        "global": {
+            "accuracy": 0.12698412698412698,
+            "precision": 0.0997274330607664,
+            "recall": 0.12698412698412698,
+            "f1": 0.07716727716727717,
+            "mcc": 0.07483233122621277,
+            "kappa": 0.06979865771812077,
+            "hamming_loss_val": 0.873015873015873,
+            "class_report": "              precision    recall  f1-score   support\n\n         bed       0.00      0.00      0.00         3\n       chair       0.11      0.25      0.15         4\n        clap       1.00      0.25      0.40         4\n       cloth       0.00      0.00      0.00         4\n         eat       0.00      0.00      0.00         2\n       fall1       0.00      0.00      0.00         4\n       fall2       0.00      0.00      0.00         4\n       fall3       0.11      0.25      0.15         4\n       fall4       0.00      0.00      0.00         3\n       fall5       0.00      0.00      0.00         1\n       fall6       0.00      0.00      0.00         3\n        hair       0.00      0.00      0.00         3\n        shoe       0.00      0.00      0.00         4\n       stair       0.00      0.00      0.00         3\n       teeth       0.18      1.00      0.31         4\n        walk       0.17      0.25      0.20         4\n        wash       0.00      0.00      0.00         4\n       write       0.00      0.00      0.00         1\n         zip       0.00      0.00      0.00         4\n\n    accuracy                           0.13        63\n   macro avg       0.08      0.11      0.06        63\nweighted avg       0.10      0.13      0.08        63\n"
+        }
+    }
+}

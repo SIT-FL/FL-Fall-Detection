@@ -32,7 +32,7 @@ python3 main.py \
     --optimizer SGD --lr 0.0003 --lr_decay 0.9995 --lr_decay_step 1 --criterion BCEWithLogitsLoss
 
 python3 main.py \
-    --exp_name FL_FD_LSTM --seed 123456\
+    --exp_name FL_FD_LSTM --seed 123456 \
     --algorithm fedavg --eval_type local --eval_metrics acc1 acc5 precision recall f1 \
     --model_name StackedLSTM --embedding_size 300 --hidden_size 256 --num_layers 2 \
     --optimizer SGD --lr 0.3 --lr_decay 1 --lr_decay_step 1 --criterion BEWithLogitsLoss
