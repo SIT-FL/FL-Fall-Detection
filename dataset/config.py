@@ -4,7 +4,7 @@ RAND_SEED = 123456
 SPLIT_SIZE = 0.2
 
 # Files and folders
-DATASET_FOLDER = "./dataset"
+DATASET_FOLDER = "./"
 EXPORT_FOLDER = "./export"
 DATASET_FILE = f"{EXPORT_FOLDER}/dataset.pkl"
 TRAIN_DATASET_FILE = f"{EXPORT_FOLDER}/train_dataset.pkl"
