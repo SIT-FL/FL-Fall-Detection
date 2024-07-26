@@ -1,5 +1,5 @@
 import networks 
-from utilsv1 import *
+from archived.utilsv1d.utilsv1 import *
 import torch 
 import torch.nn as nn 
 import torch.optim as optim

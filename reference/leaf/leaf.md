@@ -1,2 +1,0 @@
-# Replication Study - LEAF
----

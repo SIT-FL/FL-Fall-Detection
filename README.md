@@ -10,7 +10,7 @@
 ---
 This project is developed to demonstrate the efficacy of using Federated Learning for the detection of falls. In particular, we evaluate the performance of a model trained using standard ML/DL approaches against both local and global models trained using federated learning.
 
-We evaluate each model's performance for the the multi-class classification of time-series sensor readings, into 19 distinct scenarios, as prescribed by the dataset used. An LSTM model is used for both approaches, with standardised model hyperparameters.
+We evaluate each model's performance for the multi-class classification of time-series sensor readings, into 19 distinct scenarios, as prescribed by the dataset used. An LSTM model is used for both approaches, with standardised model hyperparameters.
 
 It is part of the submissions for the workshop paper submissions of the [2024 Multimodal Human Behaviour Analysis with Federated Learning, collocated with IEEE World Forum on the Internet of Things](https://mhba-fl.github.io/).
 
@@ -114,6 +114,11 @@ README.md (this file)
     # For FedProx
     python3 run.py --fedprox
     ```
+
+### Pending
+[ ] Clean up FL models
+
+[ ] Re-train comparative model
 
 ### Acknowledgements
 ---

@@ -15,7 +15,7 @@ class_mapping = {0: 'fall', 1: 'non-fall'}
 # Files and folders
 DATASET_FOLDER = "./dataset"
 SAVE_FOLDER = "./results"
-EXPORT_FOLDER = "./dataset/export"
+EXPORT_FOLDER = "./export"
 DATASET_FILE = f"{EXPORT_FOLDER}/dataset.pkl"
 TRAIN_DATASET_FILE = f"{EXPORT_FOLDER}/train_dataset.pkl"
 VAL_DATASET_FILE = f"{EXPORT_FOLDER}/val_dataset.pkl"
