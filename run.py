@@ -1,4 +1,4 @@
-from archived.utilsv1d.utilsv1 import *
+from utils import *
 import torch.optim as optim
 import argparse, os, json
 import warnings
