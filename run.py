@@ -35,6 +35,7 @@ def main(args):
     train_subjects, train_inputs, train_targets = preprocess_dataset(df_train, binary_multi=args.binary_multi)
     val_subjects, val_inputs, val_targets = preprocess_dataset(df_val, binary_multi=args.binary_multi)
 
+    """ Federated learning is performed on each of the 21 subjects as a client """
     if args.binary_multi == "multi":
         # if multi-class, it seems that each subject only have one set of data for each class
         # in this case, we do not have extra data for local testing

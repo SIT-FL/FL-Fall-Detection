@@ -1,4 +1,6 @@
-### Table of Contents
+# Federated Learning for Hierarchical Fall Detection and Human Activity Recognition
+
+## Table of Contents
 1. [Overview](#overview)
 2. [Dataset](#dataset)
 3. [Methodology](#methodology)
@@ -6,16 +8,16 @@
 5. [Program Usage](#program-usage)
 6. [Acknowledgements](#acknowledgements)
 
-### Overview
----
-This project is developed to demonstrate the efficacy of using Federated Learning for the detection of falls. In particular, we evaluate the performance of a model trained using standard ML/DL approaches against both local and global models trained using federated learning.
+## Overview
+This project provides the implementation for the paper, *Federated Learning for Hierarchical Fall Detection and Human Activity Recognition*, which  presents a federated learning framework for enhanced healthcare monitoring using a hierarchical two-stage approach for precise fall detection and human activity recognition.
 
-We evaluate each model's performance for the multi-class classification of time-series sensor readings, into 19 distinct scenarios, as prescribed by the dataset used. An LSTM model is used for both approaches, with standardised model hyperparameters.
+The first stage involves binary classification for fall detection, to distinguish between fall and non-fall events. Subsequently, the second stage involves multi-class classification for precise human activity recognition, depending on the results of the first stage. If a fall is detected, the system classifies the type of fall to facilitate appropriate medical responses; if no fall is detected, it classifies the specific activity being performed. 
+
+We evaluate each model's performance for the binary classification of fall and non-fall events, as well as for multi-class classification of time-series sensor readings, into 19 distinct scenarios, as prescribed by the dataset used. An LSTM model is used for both approaches, with standardised model hyperparameters.
 
 It is part of the submissions for the workshop paper submissions of the [2024 Multimodal Human Behaviour Analysis with Federated Learning, collocated with IEEE World Forum on the Internet of Things](https://mhba-fl.github.io/).
 
-### Dataset
----
+## Dataset
 The fall detection dataset is derived from the [*Heart Rate and IMU Sensor Data for Fall Detection*](https://github.com/nhoyh/hr_imu_falldetection_dataset) dataset published by Nho, Lim & Kwon ([2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8970371)). 
 
 The dataset captures 19 unique scenarios (classifiable under `fall` and `non-fall`) and sensor readings, as denoted below:
@@ -57,8 +59,7 @@ The dataset captures 19 unique scenarios (classifiable under `fall` and `non-fal
 - `heart`: PPG sensor
 - `time`: Real time 
 
-### Methodology
----
+## Methodology
 The following methodology was employed for experimental analysis for fall detection classification:
 1. Data Pre-processing and Preparation 
     - Preliminary Exploratory Data Analysis
@@ -68,14 +69,13 @@ The following methodology was employed for experimental analysis for fall detect
 3. Analysis
     - Model Performance Comparison and Analysis
 
-### Repository Structure
----
+## Repository Structure
 ```
 /reference (reference source code that is unused)
 
 /dataset (contains fall-detection dataset files, and associated Python notebooks)
     comparative_model.ipynb
-    eda.ipynb
+    eda_preprocessing.ipynb
     config.py
     utils.py
 
@@ -92,8 +92,7 @@ requirements.txt
 README.md (this file)
 ```
 
-### Program Usage
----
+## Program Usage
 1. Create a Python `virtualenv` on your local environment:
     ```
     python3 -m venv .venv
@@ -115,13 +114,7 @@ README.md (this file)
     python3 run.py --fedprox
     ```
 
-### Pending
-[ ] Clean up FL models
-
-[ ] Re-train comparative model
-
-### Acknowledgements
----
+## Acknowledgements
 This project is built by the Singapore Institute of Technology and the University of Glasgow. It is developed by *Peter Febrianto Afandy*, under the guidance of *Prof. Ng Pai Chet*
 
 For more information, kindly contact [*Prof. Ng Pai Chet*](mailto:paichet.ng@singaporetech.edu.sg).
