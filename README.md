@@ -101,7 +101,7 @@ README.md (this file)
     ```
     pip3 install -r requirements.txt
     ```
-3. To view or preprocess the dataset, run the [`eda.ipynb`](./dataset/eda.ipynb) notebook ensuring that you've linked the notebook to the correct Python `virtualenv`. 
+3. To view or preprocess the dataset, run the [`eda_preprocessing.ipynb`](./dataset/eda_preprocessing.ipynb) notebook ensuring that you've linked the notebook to the correct Python `virtualenv`. 
 
 4. To run the comparative model, run the [`comparative_model.ipynb`](./dataset/comparative_model.ipynb) notebook ensuring that you've linked the notebook to the correct Python `virtualenv`. 
 
@@ -115,6 +115,6 @@ README.md (this file)
     ```
 
 ## Acknowledgements
-This project is built by the Singapore Institute of Technology and the University of Glasgow. It is developed by *Peter Febrianto Afandy*, under the guidance of *Prof. Ng Pai Chet*
+This project is under the Singapore Institute of Technology and the University of Glasgow. It is developed by *Peter Febrianto Afandy*, under the guidance of *Prof. Ng Pai Chet*
 
 For more information, kindly contact [*Prof. Ng Pai Chet*](mailto:paichet.ng@singaporetech.edu.sg).
